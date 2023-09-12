@@ -22,17 +22,13 @@
   line-height: 48px;
 }
 .awards table {
+  width: 100%;
   margin-top: 67px;
+  border-collapse: collapse;
 }
 .awards table tr {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.awards table tr td {
-  display: flex;
-  align-items: center;
+  border-top: 1px solid yellow;
 }
 .awards table tr td .first {
   width: 120px;
@@ -70,4 +66,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-}/*# sourceMappingURL=index.css.map */
+}
+.awards table tr .left-box, .awards table tr .right-box {
+  display: flex;
+  align-items: center;
+}
+.awards table tr .right-box {
+  justify-content: flex-end;
+}
+.awards table tr:last-child {
+  border-bottom: 1px solid yellow;
+}

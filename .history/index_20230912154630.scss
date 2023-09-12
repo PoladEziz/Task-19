@@ -24,14 +24,16 @@
     }
 
     table {
-        width: 100%;
         margin-top: 67px;
-        border-collapse: collapse;
         tr {
             width: 100%;
-            border-top: 1px solid yellow;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             td {
-             
+                display: flex;
+                align-items: center;
+
                 .first {
                     width: 120px;
                     height: 80px;
@@ -73,17 +75,7 @@
                     line-height: 32px;
                 }
             }
-            .left-box, .right-box{
-                display: flex;
-                align-items: center;
-            }
-            .right-box{
-                justify-content: flex-end;
-            }
-            &:last-child{
-                border-bottom: 1px solid yellow;
-
-            }
+            
         }
     }
 }

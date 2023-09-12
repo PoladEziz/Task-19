@@ -26,9 +26,9 @@
     table {
         width: 100%;
         margin-top: 67px;
-        border-collapse: collapse;
         tr {
             width: 100%;
+
             border-top: 1px solid yellow;
             td {
              
@@ -79,10 +79,6 @@
             }
             .right-box{
                 justify-content: flex-end;
-            }
-            &:last-child{
-                border-bottom: 1px solid yellow;
-
             }
         }
     }
